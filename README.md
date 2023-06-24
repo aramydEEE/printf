@@ -1,3 +1,3 @@
 # Printf project
 
-Done by Morufat Salu and Kelechi Okorie
+Done by Morufat Salau and Kelechi Okorie
