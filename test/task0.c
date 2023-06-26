@@ -4,10 +4,8 @@
 
 int main(void)
 {
-	printf("%s\n", "test for capital C and S");
+	int len;
 
-	_printf("%c\n", 'C');
-	_printf("%s\n", "S");
-
+	len = _printf("%s\n", "Kelechi");
 	return (0);
 }
