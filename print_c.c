@@ -13,7 +13,7 @@ int print_c(va_list ap)
 
 	c = va_arg(ap, int);
 
-	_putchar(c);
+	_putchar((char)c);
 
 	return (1);
 }
