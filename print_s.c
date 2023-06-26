@@ -14,6 +14,9 @@ int print_s(va_list ap)
 
 	s = va_arg(ap, char *);
 
+	if (!s)
+		s = "(nil)";
+
 	n = _puts(s);
 
 	return (n);
