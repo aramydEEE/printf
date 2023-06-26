@@ -29,3 +29,4 @@ int (*get_printer(char c))(va_list ap)
 
 	return (NULL);
 }
+
