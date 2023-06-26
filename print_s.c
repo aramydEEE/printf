@@ -15,7 +15,7 @@ int print_s(va_list ap)
 	s = va_arg(ap, char *);
 
 	if (!s)
-		s = "(nil)";
+		s = "(null)";
 
 	n = _puts(s);
 
