@@ -2,13 +2,11 @@
 #include <stdio.h>
 
 
-int main(int argc, char *argv[])
+int main(void)
 {
 
 	  int len;
     int len2;
-    unsigned int ui;
-    void *addr;
 
 
 	len = _printf("Let's try to printf a simple sentence.\n");
@@ -22,6 +20,8 @@ int main(int argc, char *argv[])
 
 	_printf("Unknown:[%r]\n");
     printf("Unknown:[%r]\n");
+
+    printf("%d%d\n", len, len2);
 
     return (0);
 }
