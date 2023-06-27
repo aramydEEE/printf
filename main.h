@@ -10,7 +10,8 @@
  * @c: format specifier
  * @f: pointer to printing function
  */
-typedef struct printer {
+typedef struct printer 
+{
 	char c;
 	int (*f)(va_list ap);
 } printer;
