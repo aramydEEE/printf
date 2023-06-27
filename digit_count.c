@@ -16,7 +16,7 @@ int number_digit(int a)
 
 	x = 0;
 
-	while (a / 10 != 0)
+	while (a / 10)
 	{
 		a = a / 10;
 		x++;

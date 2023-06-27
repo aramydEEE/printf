@@ -13,9 +13,9 @@ void _digitprint(int c)
 		_putchar('-');
 		c = -1 * c;
 	}
-	if (c / 10 != 0)
+	if (c / 10)
 	{
 		_digitprint(c / 10);
 	}
-	_putchar(c % 10 + '0');
+	_putchar((c % 10) + '0');
 }
