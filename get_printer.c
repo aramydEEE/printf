@@ -16,10 +16,12 @@ int (*get_printer(char c))(va_list ap)
 	printer printers[] = {
 		{'c', print_c},
 		{'s', print_s},
-		{'%', print_percent}
+		{'%', print_percent},
+		{'d', print_d},
+		{'i', print_d},
 	};
 
-	n = 3;
+	n = 5;
 
 	for (i = 0; i < n; i++)
 	{

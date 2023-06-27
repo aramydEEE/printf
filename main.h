@@ -24,10 +24,13 @@ int (*get_printer(char c))(va_list ap);
 
 int _putchar(char c);
 int _puts(char *c);
+void _digitprint(int c);
+int number_digit(int a);
 
 int print_c(va_list ap);
 int print_s(va_list ap);
 int print_percent(va_list ap);
+int print_d(va_list ap);
 
 #endif /* _MAIN_H */
 
