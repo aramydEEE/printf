@@ -14,7 +14,7 @@ int number_digit(int a)
 		a = -1 * a;
 	}
 
-	x = 0;
+	x = 1;
 
 	while (a / 10)
 	{
