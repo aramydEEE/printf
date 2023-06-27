@@ -5,12 +5,14 @@
 #include <stdarg.h>
 
 /**
- * struct printers - template for format specifier
+ * struct printer - template for format specifier
  * and pionter function pair
  * @c: format specifier
  * @f: pointer to printing function
+ *
+ * Description: template for format specifier
  */
-typedef struct printer 
+typedef struct printer
 {
 	char c;
 	int (*f)(va_list ap);
