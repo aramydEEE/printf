@@ -13,7 +13,8 @@ int number_digit(int a)
 	{
 		a = -1 * a;
 	}
-	x = 1;
+
+	x = 0;
 
 	while (a / 10 != 0)
 	{
