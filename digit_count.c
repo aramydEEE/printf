@@ -9,16 +9,20 @@ int number_digit(int a)
 {
 	unsigned int x;
 
+	unsigned int n;
+
+	n = a;
+
 	if (a < 0)
 	{
-		a = -1 * a;
+		n = -1 * a;
 	}
 
 	x = 1;
 
-	while (a / 10)
+	while (n / 10)
 	{
-		a = a / 10;
+		n = n / 10;
 		x++;
 	}
 	return (x);
