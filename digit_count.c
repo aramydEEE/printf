@@ -9,12 +9,12 @@ int number_digit(int a)
 {
 	int x;
 
-	x = 0;
-
 	if (a < 0)
 	{
 		a = -1 * a;
 	}
+
+	x = 1;
 
 	while (a / 10)
 	{
