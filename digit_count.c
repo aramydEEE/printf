@@ -7,7 +7,7 @@
 
 int number_digit(int a)
 {
-	int x;
+	unsigned int x;
 
 	if (a < 0)
 	{
