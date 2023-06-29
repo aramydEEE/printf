@@ -18,7 +18,7 @@ int (*get_printer(char c))(va_list ap)
 		{'s', print_s},
 		{'%', print_percent},
 		{'d', print_d},
-		{'i', print_d},
+		{'i', print_d}
 	};
 
 	n = 5;
