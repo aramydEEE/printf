@@ -8,7 +8,8 @@
 
 int print_d(va_list ap)
 {
-	unsigned int x, r;
+	int x;
+	unsigned int r;
 
 	x = va_arg(ap, int);
 	r = number_digit(x);
