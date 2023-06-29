@@ -22,7 +22,7 @@ int (*get_printer(char c))(va_list ap)
 		{'u', print_u}
 	};
 
-	n = 9;
+	n = 6;
 
 	for (i = 0; i < n; i++)
 	{
