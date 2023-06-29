@@ -18,10 +18,14 @@ int (*get_printer(char c))(va_list ap)
 		{'s', print_s},
 		{'%', print_percent},
 		{'d', print_d},
-		{'i', print_d}
+		{'i', print_d},
+		{'u', print_u},
+		{'o', print_o},
+		{'x', print_x},
+		{'X', print_X}
 	};
 
-	n = 5;
+	n = 9;
 
 	for (i = 0; i < n; i++)
 	{
