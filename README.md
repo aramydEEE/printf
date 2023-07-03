@@ -25,4 +25,10 @@ You don’t have to handle field width
 You don’t have to handle precision
 You don’t have to handle the length modifiers
 
+TASK 2. With a face like mine, I do better in print
+#advanced
+Handle the following custom conversion specifiers:
+
+b: the unsigned int argument is converted to binary
+
 Done by Morufat Salau and Kelechi Okorie
